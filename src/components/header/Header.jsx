@@ -15,7 +15,7 @@ function Header() {
           </div>
           <div className="header__cart">
             <Button outline >Кнопка </Button>
-            <Button >123</Button>
+            <Button test>123</Button>
             <a href="/cart.html" className="button button--cart">
               <span>520 ₽</span>
               <div className="button__delimiter"></div>
