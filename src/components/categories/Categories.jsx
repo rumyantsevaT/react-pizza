@@ -5,6 +5,7 @@ function Categories({ items, onClickItem }) {
   const [activeItem, setActiveItem] = useState(null);
 
   const onSelectItem = (index) => {
+    console.log(index, activeItem)
     setActiveItem(index);
   };
 
